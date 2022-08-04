@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'Sen';
+    }
+}
+
+@layer utilities {
+    .scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+}
