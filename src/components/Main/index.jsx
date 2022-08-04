@@ -8,9 +8,7 @@ function Main() {
         <>
             <main className=" flex items-center flex-col gap-6 h-screen bg-gradient-to-br from-rose-100 to-teal-100">
                 <Header />
-
                 <Form />
-                <Products />
             </main>
         </>
     )

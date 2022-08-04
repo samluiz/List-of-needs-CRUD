@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useEffect } from 'react'
 import { v4 as uuidv4 } from 'uuid'
+import Products from '../Products'
 
 export let data = {}
 export let products = []
@@ -25,8 +26,6 @@ function Form() {
         <>
             <form
                 onSubmit={handleSubmit}
-                action="#"
-                method="post"
                 className=" flex flex-col justify-center items-center max-w-[72rem] gap-6  "
             >
                 <div className="w-[40rem] ">
@@ -100,6 +99,7 @@ function Form() {
                     Add Item
                 </button>
             </form>
+            <Products />
         </>
     )
 }
