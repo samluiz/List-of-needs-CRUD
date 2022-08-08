@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useEffect } from 'react'
 import { products } from '../Form'
 
-function Products(props) {
+function Products() {
     return (
         <>
             <div className="min-w-[70%] h-[32rem] overflow-y-scroll bg-white bg-opacity-40 backdrop-filter backdrop-blur-lg border rounded-lg scrollbar shadow-xl">

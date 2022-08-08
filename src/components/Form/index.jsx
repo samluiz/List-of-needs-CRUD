@@ -47,8 +47,10 @@ function Form() {
                 <div className="">
                     <label htmlFor="" className=" ">
                         Product price
-                        <CurrencyInput
+                        <input
+                            type="number"
                             name="price"
+                            value={price}
                             id="inputname"
                             placeholder="$200"
                             className="p-1 w-[20rem] sm:w-[40rem] bg-transparent border-b-black border-b-[1px] block focus:outline-none "
